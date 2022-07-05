@@ -1,0 +1,11 @@
+gcloud functions deploy insertbd \
+--project projectwithtiga \
+--runtime python39 \
+--entry-point main \
+--memory 512MB \
+--trigger-http \
+--region us-central1 \
+--timeout 540 \
+--min-instances 1 \
+--max-instances 1 \
+--env-vars-file env.yaml
