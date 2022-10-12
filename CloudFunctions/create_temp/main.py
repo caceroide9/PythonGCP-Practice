@@ -33,7 +33,7 @@ def list_blobs_with_prefix(bucket_name, prefix, delimiter=None):
         if((bt)!=b''):
             data = xmltodict.parse(bt)
             with open('/tmp/'+x1, 'w') as f:
-                continue
+                pass
             upload_blob("pruebadf2", '/tmp/'+x1, x1)
         else:
             None
