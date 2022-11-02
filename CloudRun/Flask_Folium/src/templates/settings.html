@@ -1,0 +1,9 @@
+<html>
+    <head>
+         <script type="text/javascript" {{ url_for('templates', filename='assets/app.js')}}></script>
+         <script type="text/javascript">
+            myVar = myFunc({{data|tojson}})
+         </script>
+    </head>
+</html>
+
