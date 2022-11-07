@@ -1,0 +1,5 @@
+env_variables:
+  DB_USER: 
+  DB_PASS: 
+  DB_NAME: 
+  INSTANCE_UNIX_SOCKET: 
